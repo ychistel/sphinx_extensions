@@ -1,0 +1,78 @@
+.pyscript-editeur{
+    border-left: solid 6px #284487;
+    border-right: solid 6px #284487;
+    border-top: solid 1px #284487;
+    border-bottom: solid 1px #284487;
+    border-radius: 6px
+}
+.pyscript-foot{
+    background:#ccc;
+    color: #000;
+    padding:4px 8px;
+    height:30px;
+    margin-top:0px;
+}
+
+.pyscript-output{
+    background:#fff;
+    color: #000;
+    padding:4px 8px;
+    border-top: solid 1px #ccc;
+    min-height:40px;
+    margin:0px;
+}
+html[data-theme=dark] div.pyscript-output{
+    background:#fff;
+    color: #000;
+}
+.pyscript-button{
+    margin: 0px auto;
+    text-align:center;
+    background:#ccc;
+}
+
+div.pyscript-container button{
+    background: #2986c0;
+    padding:1px 4px;
+    border:solid 1px #284687;
+    border-radius:4px;
+    color:#fff;
+    margin: 8px auto;
+}
+
+div.pyscript-logo {
+    text-align: left;
+    display:inline-block;
+    width:24px;
+}
+h3.pyscript-title{
+    margin: 0px;
+    font-size: 1.2em;
+    font-weight: 600;
+    padding: 0px;
+}
+
+div.pyscript-output span.success {
+    color: green;
+}
+
+div.pyscript-output span.assertion-error {
+    color: purple;
+}
+
+div.pyscript-output span.error {
+    color: red;
+}
+
+div.pyscript-output span.warning {
+    color: orange;
+}
+
+div.pyscript-output span.result {
+    color: green;
+}
+
+.line {
+    font-family: monospace;
+}
+

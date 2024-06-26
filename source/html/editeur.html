@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editeur</title>
+    <link src="css/editeur.css" type="text/css" rel="stylesheet">
+    <script type="text/javascript" src="../_static/js/editeur.js" defer></script>
+</head>
+<body>
+    <h2>Python Code Editor with PyScript</h2>
+    <button id="showEditorButton">Afficher l'éditeur</button>
+
+    <div id="editorModal" class="modalpython-content">
+        <span class="close">&times;</span>
+        <textarea id="placeholder"></textarea>
+        <button id="runButton">Run</button>
+        <button id="clearButton">Effacer</button>
+        <button id="downloadButton">Télécharger</button>
+        <input type="file" id="uploadInput" style="display:none;">
+        <button id="uploadButton">Téléverser</button>
+        <div id="output"></div>
+    </div>
+
+</body>
+</html>
