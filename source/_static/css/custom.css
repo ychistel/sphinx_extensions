@@ -5,7 +5,25 @@
     --color-gray-light:#eee;
     --color-gray-dark:#4d4d4d;
 }
-
+.navbar-brand {
+    height: unset;
+    max-height: unset;
+    flex-direction: row;
+    justify-content: center;
+    gap: .25rem;
+}
+.navbar-brand .logo__title {
+    font-size: 2rem;
+    white-space: normal;
+    text-align: left;
+    font-weight:500;
+}
+pre, span.pre{font-size:1rem;}
+img.logo__image{max-width:92px;}
+.bd-sidebar-primary .sidebar-primary-items__end {
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
 .margin-none{margin:none}
 .margin-0{margin:0px}.margin-2{margin:2px}.margin-4{margin:4px}.margin-8{margin:8px}.margin-16{margin:16px}.margin-32{margin:32px}
 .margin-top-2{margin-top:2px}.margin-top-4{margin-top:4px}.margin-top-8{margin-top:8px}.margin-top-16{margin-top:16px}.margin-top-32{margin-top:32px}
@@ -61,16 +79,6 @@ div.propriete.admonition{border-color:#404140;}
 div.propriete > p.admonition-title{background-color:#d4d4d4;color:#404140;}
 /*div.propriete > p.admonition-title::after{color:#404140;content: "\f013";}*/
 
-p.title{
-    text-align: center;
-    font-size: 4em;
-    padding-bottom: 20px;
-    background-color: var(--color-blue-light);
-}
-p.title a{
-    color:#404140;
-    text-decoration: none;
-}
 
 .demo{
     margin:0 25px;

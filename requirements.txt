@@ -20,5 +20,8 @@ nbsphinx
 # Module pour insérer un bouton de copier coller
 sphinx-copybutton
 
+# Ajouter un favicon
+pip install sphinx-favicon
+
 # Module pour convertir des fichiers d'un format à un autre
 pandoc

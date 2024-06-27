@@ -46,7 +46,7 @@ Ajouter un éditeur pré-rempli
 
 Le principal intérêt de cet éditeur est de pouvoir insérer du code Python avant la compilation du document. Ceci est réalisé en ajoutant dans la directive ``pyscript`` le code Python en tant que contenu. On donne l'exemple suivant:
 
-.. code-block::
+.. code-block:: reST
 
     .. pyscript::
     
