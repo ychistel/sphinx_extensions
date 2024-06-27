@@ -21,7 +21,7 @@ nbsphinx
 sphinx-copybutton
 
 # Ajouter un favicon
-pip install sphinx-favicon
+sphinx-favicon
 
 # Module pour convertir des fichiers d'un format à un autre
 pandoc

@@ -82,7 +82,9 @@ html_theme_options = {
 html_context = {
     'sites' : {
         'ENT Normandie' : 'https://www.l-educdenormandie.fr/',
-        'Cours sur Github' : 'https://ychistel.github.io/cours/'
+        'Cours sur Github' : 'https://ychistel.github.io/cours/',
+        'PyData Sphinx Thème' : 'https://pydata-sphinx-theme.readthedocs.io/en/stable/',
+        'Sphinx Book Thème' : 'https://sphinx-book-theme.readthedocs.io/en/latest/index.html'
     }
 }
 
