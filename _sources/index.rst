@@ -13,11 +13,8 @@ Pour mon usage personnel, j'ai développé les extensions suivantes:
 -   L'insertion d'un éditeur de code Python avec PyScript et Pyodide.
 
 .. toctree::
-    :maxdepth: 1
+    :maxdepth: 2
     :hidden:
 
     content/enumerate.rst
     content/pyscript.rst
-
-
-
