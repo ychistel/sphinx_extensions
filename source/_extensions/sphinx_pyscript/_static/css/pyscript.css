@@ -1,8 +1,20 @@
+:root{
+    --color-blue:#284487;
+    --color-blue-light:#adc5d9;
+    --color-gray:#d4d4d4;
+    --color-gray-light:#eee;
+    --color-gray-dark:#4d4d4d;
+    --color-orange:#ff5500;
+    --color-vert-imperial:#00561b;
+    --color-vert-foret:#228b22;
+    --color-vert-anglais:#18391e;
+}
+
 .pyscript-editeur{
-    border-left: solid 6px #284487;
-    border-right: solid 6px #284487;
-    border-top: solid 1px #284487;
-    border-bottom: solid 1px #284487;
+    border-left: solid 6px var(--color-orange);
+    border-right: solid 6px var(--color-orange);
+    border-top: solid 1px var(--color-orange);
+    border-bottom: solid 1px var(--color-orange);
     border-radius: 6px
 }
 .pyscript-foot{
@@ -32,9 +44,9 @@ html[data-theme=dark] div.pyscript-output{
 }
 
 div.pyscript-container button{
-    background: #2986c0;
-    padding:1px 4px;
-    border:solid 1px #284687;
+    background: var(--color-vert-foret);
+    padding:2px 8px;
+    border:solid 2px var(--color-vert-anglais);
     border-radius:4px;
     color:#fff;
     margin: 8px auto;
